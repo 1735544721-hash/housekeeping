@@ -1,0 +1,72 @@
+// Element Plus 全局样式覆盖
+.el-dropdown-menu {
+  padding: 0 !important;
+  
+  .user-info-panel {
+    padding: 16px;
+    min-width: 280px;
+    background: #fff;
+    
+    .user-info-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 16px;
+      
+      .user-info-main {
+        flex: 1;
+        
+        .username {
+          font-size: 16px;
+          font-weight: 500;
+          color: #333;
+          margin-bottom: 8px;
+        }
+        
+        .role-tag {
+          display: flex;
+          gap: 8px;
+        }
+      }
+    }
+    
+    .user-info-detail {
+      .info-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 8px;
+        color: #666;
+        font-size: 13px;
+        
+        .el-icon {
+          font-size: 16px;
+          color: #999;
+        }
+        
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.el-dropdown-menu__item {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 8px 16px !important;
+  height: 40px !important;
+  line-height: 24px !important;
+  
+  .el-icon {
+    margin-right: 4px;
+    font-size: 16px;
+  }
+}
+
+.el-popper.is-customized {
+  min-width: 280px !important;
+  padding: 0 !important;
+} 
